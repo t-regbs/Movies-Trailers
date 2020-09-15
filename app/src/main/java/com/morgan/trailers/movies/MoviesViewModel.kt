@@ -23,7 +23,6 @@ import timber.log.Timber
 @ExperimentalCoroutinesApi
 class MoviesViewModel(private val movieRepository: MovieRepository): ViewModel(){
 
-
     private val movieTypeSelected = MutableLiveData<MovieType>(MovieType.Popular)
     private val queryLiveData = MutableLiveData<String>()
 
